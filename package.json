@@ -1,0 +1,47 @@
+{
+  "name": "Sample-HTML5",
+  "version": "1.0",
+  "description": "HTML provides the structure of websites.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "HTML provides the structure of websites.",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "autoprefixer": "^9.7.3",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.0"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "web-watch": "webpack --watch"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-webp": "^4.0.1"
+  }
+}
